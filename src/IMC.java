@@ -28,14 +28,12 @@ class IMC {
             }
 
     }
-
     @Test
     public double caculeIndiceMasseCorporelle(){
         double total = weight /  Math.pow (size, 2);
         total = total * 10000;
         return total;
     }
-
     @Test
     public
     static void correspond( double indice){
@@ -61,7 +59,6 @@ class IMC {
                 System.out.println ("Vous êtes en obésité morbide");
             }
     }
-
     //
     @Test
     public void affichageResultat(){
